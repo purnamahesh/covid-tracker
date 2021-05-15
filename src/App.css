@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
+.navbar{
+    box-shadow: 7px lightgray;
+}
+.graph{
+    height:400px !important;
+    box-shadow: 7px 7px lightgray;
+    border-radius: 7px;
+    transition-property: all;
+    transition-duration:2s;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.graph:hover{
+    box-shadow: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#state-wide-table{
+    box-shadow: 7px 7px lightgray;
+    border-radius: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.card-box{
+    color: white;
+    padding: 7px;
+    border-radius: 7px;
+    transition-property: all;
+    transition-duration: 1s;
+    box-shadow: 5px 5px lightgray;
 }
 
-.App-link {
-  color: #61dafb;
+.card-box:hover{
+    box-shadow: -5px -5px lightgray;
+}
+.state-button{
+    border-radius: 10px!important;
+    transition-property: all;
+    transition-duration: 1s;
+    margin-bottom: 5px;
+}
+.state-button:hover{
+    text-decoration: none;
+    background: #007bff;
+    color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#fotter{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    background: darkslategray;
+    width: 100vw;
+}
+.icon{
+    padding: 0px;
+    color: #007bff;
+    font-size: 20px;
+    transition-property: all;
+    transition-duration: 1s;
+}
+.icon:hover{
+    font-size: 40px;
+    color: hotpink;
 }
